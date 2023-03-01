@@ -5,17 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculadora IMC</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <h1>Calculadora IMC</h1>
+    <h1 class="titulo">Calculadora (IMC)</h1>
     
-    <form action="">
-        <label >Peso:</label><input id="txtPeso" type="text" placeholder="Introduce tu Peso" min="0">
-        <label >Altura:</label><input id="txtAltura" type="text" placeholder="Introduce tu Altura" min="0">
-        <button id="btnCalcular">Calcular</button>
+    <form class="valores" action="">
+        <label >Peso:</label><input id="txtPeso" type="text" placeholder="Introduce tu Peso en Kg" min="0">
+        <label >Altura:</label><input id="txtAltura" type="text" placeholder="Introduce tu Altura en M" min="0">
         <br>
-        <img src="https://adultosmayores.info/wp-content/uploads/2019/02/tabla-imc-oms.jpg" alt="tabla-imc-oms" srcset="">
+        <button class="botonCalcular" id="btnCalcular">Calcular</button>
+        <p>
+            El índice de masa corporal (IMC) es un número que se calcula con base en el peso y la estatura de la persona. Para la mayoría de las personas, el IMC es un indicador confiable de la gordura y se usa para identificar las categorías de peso que pueden llevar a problemas de salud.
+        </p>
+        <img src="https://www.centrodeobesidad.cl/wp-content/uploads/2015/06/imc.png" alt="tabla-imc" srcset="">
     </form>
     <script src="script.js"></script>
 </body>
